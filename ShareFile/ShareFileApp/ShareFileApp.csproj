@@ -60,7 +60,6 @@
     <Compile Include="ShareFile.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Assets\offline.pdf" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />

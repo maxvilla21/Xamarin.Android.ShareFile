@@ -20,8 +20,8 @@ namespace ShareFileApp
         private ShareFile sharefile;
         string testFilePath;
 
-        const string remoteFileUrl = "https://cupitcontent.blob.core.windows.net/images/cup-it.png";
-        const string testFileName = "testfile.png";
+        const string remoteFileUrl = "https://developer.xamarin.com/guides/android/getting_started/installation/offline.pdf";
+        const string testFileName = "testfile.pdf";
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -48,10 +48,6 @@ namespace ShareFileApp
         private void BtnShareLocalFile_Click(object sender, System.EventArgs e)
         {
             sharefile.ShareLocalFile(testFilePath);
-
-
-
-
         }
         private async void DownloadTestFile()
         {
